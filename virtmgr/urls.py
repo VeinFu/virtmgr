@@ -3,7 +3,7 @@
 
 from virtmgr.api.hello import Hello
 from virtmgr.api.server import ServersR, ServerR
-from virtmgr import app, flask_api
+from virtmgr import flask_api
 
 
 resources = {

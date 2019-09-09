@@ -3,3 +3,11 @@
 * flask restful
 * flask marshmallow
 * flask blueprint
+
+## 运行
+
+```bash
+cd virtmgr
+source env/bin/activate
+python runserver.py
+```

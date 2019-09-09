@@ -18,5 +18,8 @@ app.config.from_object(DevelopmentConfig)
 db = flask_sqlalchemy.SQLAlchemy(app)
 
 
+def initdb():
+    db.create_all()
+
+
 from virtmgr.urls import *
-from virtmgr.wsgi import *
